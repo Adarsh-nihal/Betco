@@ -1,0 +1,16 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body{
+  ::-webkit-scrollbar{
+    display: none;
+  }
+ 
+}
+.bg{
+  background: url("../asset//user//bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
